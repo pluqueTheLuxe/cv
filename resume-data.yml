@@ -47,93 +47,78 @@ Jobs:
   - dotnet/.NET/C#, MongoDB, SQL Server 
   - Azure Cloud, Managed WebApp/Sql/Queue, Azure DevOps CI/CD, Docker containers
   - Agile, Windows/Linux, VSCode, VS, Git, Kentico, SoftVoyage Integrations
-
-# - Business: 
-#   BusinessDescription: 
-#   Position:
-#   TimePeriod:
-#   Responsabilities:
-#   - 
-#   Technos:
-#   -
-# - Business: 
-#   BusinessDescription: 
-#   Position:
-#   TimePeriod:
-#   Responsabilities:
-#   - 
-#   Technos:
-#   -
-
-
-
-
-# VB.NET
-# VS, MS Dynamics CRM 4
-
-# Ministère des affaires municipales du Québec	Consultant/Développeur sénior
-# Février 2015 à avril 2015
-# Le MAMOT transfère chaque année des millions de dollars en taxes aux municipalités suivant les évaluations foncières des bâtiments relevant du gouvernement. Ces données sont traitées par workflow à l’aide du logiciel MS Dynamics CRM. 
-# Évaluation de l’état actuel du système
-# Stabilisation du système en production
-# Réarchitecture technique complète et développement des améliorations
-
-# .NET 4 - VB.NET, COBOL.NET
-# Web Services/WCF 
-# Oracle, JCL/NéoBatch
-
-# Desjardins	Consultant/Développeur
-# Avril 2014 à février 2015
-# Desjardins Groupe d’assurances générales assure chaque année des milliers de clients à travers le Québec et tout le Canada. Par l’ajout au portefeuille d’un joueur majeur au Canada, DGAG s’assure d’une position unique. Cette position doit être renforcée par l’amélioration des systèmes. 
-# Développement et amélioration du portail d’assurance auto et habitation
-# Analyse et développement d’un traitement de gestion des adresses de Postes Canada
-
-
-# .NET 2/4 – VB.NET, Web Services/WCF
-# Oracle
-# CLR Memory Profiler, ANTS Perf. Profiler, VS, P3, TDD
-
-# Revenu Québec	Consultant/Développeur
-# Mai 2012 à avril 2014
-# Revenu Québec communique avec des milliers de clients chaque année. Ces communications sont pour la plupart prises en charge par le système de communication de masse, qui les traient, archivent et les préparent pour l’impression. 
-# Conception et développement d’une solution d’impression PDF en masse
-# Amélioration des fonctions communes
-# Optimisation des traitements de la production des communications clients
-
-# .NET 3.5/4 - C#/ASP.NET
-# SQL Server 2005/2008/2012
-# VS 2008/2010, Analyse P+, TDD
-
-# COGI-OMH	Développeur
-# Octobre 2009 à mai 2012
-# La COGI-OMH est un organisme à but non lucratif ayant comme mission d’accompagner et d’aider les OMH à combler leurs besoins en développement logiciel et technique. 
-# Analyse technique et fonctionnelle de nouveaux modules
-# Conseiller des solutions fonctionnelles simplifiées
-# Développer et maintenir une application de gestion intégrée de logements sociaux
-# Développer des systèmes de base de données
-# Implication dans le processus interne d’amélioration continue
-
-# .NET 2/3.5 – VB.NET/ASP.NET
-# SQL Server 2005
-# VS 2005
-
-# Chambre des communes	Développeur
-# Octobre 2007 à octobre 2009
-# La Chambres des communs gère tous les débats politiques canadiens. Ils diffusent à la télévision par CPAC tous les débats publics. Cependant ils diffusent aussi sur Internet ces débats par le biais de ParlVu. Ainsi le développement logiciel et soutien technique est omniprésent. 
-# Analyse des besoins
-# Modélisation de base de données
-# Développer un système gestion de stabilité des flux de diffusion
-# Soutien de première ligne aux applications
-
-# .NET 1/2/3.5 - C#/ASP.NET, TDD 
-# SQL Server 2000/2005/MSDE
-# VS 2003/2005
-
-# Solutions TLM	Développeur
-# Janvier 2004 à octobre 2007
-# Solutions TLM est une entreprise québécoise qui est spécialisée dans le développement logiciel pour les PME. Leurs principaux clients comptent parmi les principales sérigraphies au Québec mais il développement aussi un éventail impressionnant de logiciel de gestion.
-# Analyse des besoins
-# Modélisation de base de données
-# Coordonner des réunions avec les clients afin de leur permettre de comprendre l’évolution des projets
-# Développer un système gestion de ressources d’entreprise
-# Agir en tant que personne-ressource
+- Business: Ministère des affaires municipales du Québec
+  BusinessDescription: Le MAMOT transfère chaque année des millions de dollars en taxes aux municipalités suivant les évaluations foncières des bâtiments relevant du gouvernement. Ces données sont traitées par workflow à l’aide du logiciel MS Dynamics CRM. 
+  Position: Consultant/Développeur sénior
+  TimePeriod: Février 2015 à avril 2015
+  Responsabilities:
+  - Évaluation de l’état actuel du système
+  - Stabilisation du système en production
+  - Réarchitecture technique complète et développement des améliorations
+  Technos:
+  - VB.NET
+  - VS, MS Dynamics CRM 4
+- Business: Desjardins
+  BusinessDescription: Desjardins Groupe d’assurances générales assure chaque année des milliers de clients à travers le Québec et tout le Canada. Par l’ajout au portefeuille d’un joueur majeur au Canada, DGAG s’assure d’une position unique. Cette position doit être renforcée par l’amélioration des systèmes. 
+  Position: Consultant/Développeur
+  TimePeriod: Avril 2014 à février 2015
+  Responsabilities:
+  - Développement et amélioration du portail d’assurance auto et habitation
+  - Analyse et développement d’un traitement de gestion des adresses de Postes Canada
+  Technos:
+  - .NET 4 - VB.NET, COBOL.NET
+  - Web Services/WCF 
+  - Oracle, JCL/NéoBatch
+- Business: Revenu Québec
+  BusinessDescription: Revenu Québec communique avec des milliers de clients chaque année. Ces communications sont pour la plupart prises en charge par le système de communication de masse, qui les traient, archivent et les préparent pour l’impression. 
+  Position: Consultant/Développeur
+  TimePeriod: Mai 2012 à avril 2014
+  Responsabilities:
+  - Conception et développement d’une solution d’impression PDF en masse
+  - Amélioration des fonctions communes
+  - Optimisation des traitements de la production des communications clients
+  Technos:
+  - .NET 2/4 – VB.NET, Web Services/WCF
+  - Oracle
+  - CLR Memory Profiler, ANTS Perf. Profiler, VS, P3, TDD
+- Business: COGI-OMH
+  BusinessDescription: La COGI-OMH est un organisme à but non lucratif ayant comme mission d’accompagner et d’aider les OMH à combler leurs besoins en développement logiciel et technique. 
+  Position: Développeur
+  TimePeriod: Octobre 2009 à mai 2012
+  Responsabilities: 
+  - Analyse technique et fonctionnelle de nouveaux modules
+  - Conseiller des solutions fonctionnelles simplifiées
+  - Développer et maintenir une application de gestion intégrée de logements sociaux
+  - Développer des systèmes de base de données
+  - Implication dans le processus interne d’amélioration continue
+  Technos:
+  - .NET 3.5/4 - C#/ASP.NET
+  - SQL Server 2005/2008/2012
+  - VS 2008/2010, Analyse P+, TDD
+- Business: Chambre des communes
+  BusinessDescription: La Chambres des communs gère tous les débats politiques canadiens. Ils diffusent à la télévision par CPAC tous les débats publics. Cependant ils diffusent aussi sur Internet ces débats par le biais de ParlVu. Ainsi le développement logiciel et soutien technique est omniprésent. 
+  Position: Développeur
+  TimePeriod: Octobre 2007 à octobre 2009
+  Responsabilities:
+  - Analyse des besoins
+  - Modélisation de base de données
+  - Développer un système gestion de stabilité des flux de diffusion
+  - Soutien de première ligne aux applications
+  Technos:
+  - .NET 2/3.5 – VB.NET/ASP.NET
+  - SQL Server 2005
+  - VS 2005
+- Business: Solutions TLM
+  BusinessDescription: Solutions TLM est une entreprise québécoise qui est spécialisée dans le développement logiciel pour les PME. Leurs principaux clients comptent parmi les principales sérigraphies au Québec mais il développement aussi un éventail impressionnant de logiciel de gestion.
+  Position: Développeur
+  TimePeriod: Janvier 2004 à octobre 2007
+  Responsabilities:
+  - Analyse des besoins
+  - Modélisation de base de données
+  - Coordonner des réunions avec les clients afin de leur permettre de comprendre l’évolution des projets
+  - Développer un système gestion de ressources d’entreprise
+  - Agir en tant que personne-ressource
+  Technos:
+  - .NET 1/2/3.5 - C#/ASP.NET, TDD 
+  - SQL Server 2000/2005/MSDE
+  - VS 2003/2005
