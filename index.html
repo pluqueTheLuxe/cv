@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <style>
+            /* * {
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+            } */
+            html {
+                font-size: 16px;
+            }
+            li {
+                list-style-type: square;
+            }
+            .work-history-header {
+                background-color: #3b3d3b;
+                color: #a6a6a6;
+                text-align: center;
+                font-size: 1.3333rem;
+            }
+            .work-history-header + div {
+                display: flex;
+            }
+            .technos-header {
+                color: #a6a6a6;
+                background-color: #1e1e1e;
+                text-transform: uppercase;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                font-size: 1.3333rem;
+            }
+            jobs {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            job {
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+            }
+            technos {
+                flex-grow: 1;
+                background-color: #1e1e1e;
+                font-size: .6667rem;
+                color: #d9d9d9;
+            }
+            job-details {
+                flex-grow: 2;
+                display: flex;
+                flex-direction: column;
+                font-size: .6667rem;
+            }
+            job-header {
+                display: flex;
+                justify-content: space-between;
+                font-weight: bold;
+            }
+            time-period {
+                font-size: .5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="work-history-header">Expériences professionnelles</div>
+        <div>
+            <div class="technos-header">Technos</div>
+            <jobs>
+                <job>
+                    <technos>
+                        <ul>
+                            <li>Angular 8, RxJs, RESTFul apis/GraphQL, WebSockets</li>
+                            <li>dotnet/C#, PostgreSql, MongoDB, SQL, Redis</li>
+                            <li>k8s (on-prem/DO/gke), Rancher, CI/ArgoCD</li>
+                            <li>Agile, Linux, VSCode, VS, Git, Squidex</li>
+                            <li>Micro-service architecture</li>
+                        </ul>
+                    </technos>
+                    <job-details>
+                        <job-header>
+                            <business>SquareLab/Roxboro</business>
+                            <job-title>Team lead et développeur sénior fullstack</job-title>
+                        </job-header>
+                        <time-period>Février 2019 à juin 2020</time-period>
+                        <business-description>SquareLab est une startup créer avec la collaboration de Roxboro excavation. Sa mission est d’accélérer l’innovation des entreprises via le développement informatique.</business-description>
+                        <job-responsabilities>
+                            <ul>
+                                <li>Rencontre client pour l’identification des besoins pour l’évolution du produit</li>
+                                <li>Architecture et planification techniques prévisionnelles</li>
+                                <li>Développement d’application angular/dotnet de type microservice</li>
+                                <li>Mise en place de cluster k8s on-prem et managed (DO, GKE)</li>
+                                <li>Mise en place de processus CI/CD pour k8s</li>
+                                <li>Participation active à l’évolution de l’agilité au sein de l’entreprise</li>
+                                <li>Implication aux processus d'entrevues</li>
+                                <li>Implication aux rencontres préliminaires avec les fournisseurs de services</li>
+                            </ul>
+                        </job-responsabilities>
+                    </job-details>
+                </job>
+            </jobs>
+        </div>
+    </body>
+</html>
